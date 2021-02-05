@@ -43,6 +43,7 @@ public class Odd_Even
 
             default:
             System.out.println("Invalid Choice !!!!!");
+            System.out.println("Please enter a number from the options given.");
         }
         sc.close();
     }
