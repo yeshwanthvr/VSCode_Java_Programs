@@ -22,7 +22,7 @@ public class ParkingLot
     double bill;
 
     // Constructor used to initialize the variables
-    void Parkinglot()
+    public void Parkinglot()
     {
         vno = "";
         hours = 0;
@@ -30,7 +30,7 @@ public class ParkingLot
     }
 
     // Constructor ued to input and store the values
-    void input()
+    public void input()
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your vehicle number : ");
@@ -41,13 +41,13 @@ public class ParkingLot
     }
 
     // Constructor used to calculate the parking charges
-    void calculate()
+    public void calculate()
     {
         bill = hours * 30;
     }
 
     // Constructor used to display the details
-    void display()
+    public void display()
     {
         System.out.println();
         System.out.println("Vehicle number : " +vno);
