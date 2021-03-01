@@ -32,11 +32,11 @@ public class Perfect_Square_Root_2
             checking[i] = root[i] - Math.floor(root[i]);
             if(checking[i] == 0)
             {
-                System.out.println(+raw[i]+ " \t\tis a perfect square number");
+                System.out.println(+raw[i]+ " \t\tA perfect square number\t\t----------");
             }
             else
             {
-                System.out.println(+raw[i]+ " \t\t\t\t\t\tis not a perfect square number");
+                System.out.println(+raw[i]+ " \t\t\t------\t\t\tNot a perfect square number");
             }
         }
         sc.close();
