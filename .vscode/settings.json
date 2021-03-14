@@ -6,5 +6,7 @@
         "**/.factorypath": true
     },
     "editor.fontSize": 25,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorStyle": "block"
 }
