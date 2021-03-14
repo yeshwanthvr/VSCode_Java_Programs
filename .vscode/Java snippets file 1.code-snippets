@@ -1,0 +1,14 @@
+{
+	"Input the main method": {
+		"prefix": "main",
+		"body": [
+		  "public static void main(String args[])",
+		  "{",
+		  "Scanner sc = new Scanner(System.in);",
+		  "$0",
+		  "sc.close();",
+		  "}"
+		],
+		"description": "Input the main method"
+	  }
+}

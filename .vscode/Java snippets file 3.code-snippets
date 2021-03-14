@@ -1,0 +1,10 @@
+{
+	"Input Scanner class": {
+		"prefix": "sc",
+		"body": [
+		  "import java.util.*;",
+		  "$1"
+		],
+		"description": "Input Scanner class"
+	  }
+}

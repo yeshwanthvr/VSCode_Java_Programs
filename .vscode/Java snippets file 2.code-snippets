@@ -1,0 +1,9 @@
+{
+	"Printing statement": {
+		"prefix": "Sopl",
+		"body": [
+		  "System.out.println($1);"
+		],
+		"description": "Printing statement"
+	  }
+}
