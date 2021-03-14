@@ -6,5 +6,5 @@
         "**/.factorypath": true
     },
     "editor.fontSize": 25,
-    "diffEditor.wordWrap": "on"
+    "editor.wordWrap": "on"
 }
