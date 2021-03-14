@@ -7,6 +7,6 @@
     },
     "editor.fontSize": 25,
     "editor.wordWrap": "on",
-    "editor.cursorBlinking": "phase",
-    "editor.cursorStyle": "underline"
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "block"
 }
