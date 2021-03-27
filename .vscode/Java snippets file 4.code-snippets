@@ -1,0 +1,9 @@
+{
+    "NextInt method": {
+        "prefix": "ni",
+        "body": [
+            "= sc.nextInt();"
+        ],
+        "description": "Used to input a number of integer data type"
+    }
+}
