@@ -9,6 +9,7 @@ public class Tables {
         n3 = sc.nextInt();
         n4 = sc.nextInt();
         n5 = sc.nextInt();
+        System.out.println();
         for(int i = 1; i <= 10; i++)
         {
             a1 = n1 * i;
