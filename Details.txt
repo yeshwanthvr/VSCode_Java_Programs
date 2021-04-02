@@ -1,0 +1,12 @@
+Hello everyone , I am Yeshwanth VR. This file will give you the details on how to use my code. Without further a do , let me start with the details.
+
+
+1) The code given here is free to use anywhere.
+
+Note : The only limitation is that if you want to use my code , you must change the variables used in my code or if possible can change the type of calculation used in the program. I dont want the same variables or the same logic in the programs which you have copied from me.
+
+2) The snippet files that I have created are used as I am working in the code editor Visual Studio Code. Thus for my simpler workflow, I have created my own snippets.
+
+3) There are some setting changes that I have committed because those settings are the cursor settings that I have changed for the nice look of my editor.
+
+<sl:4b23808f5dafe1c1f95350d1166bd32cacf19f60a929fa51645399a22b61fa4190e11ca088df40b58cc9500db1349e6f9bc0954eb273d9418bca95456f109bab:sl>
