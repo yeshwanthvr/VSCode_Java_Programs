@@ -10,7 +10,7 @@ public class Output_7
         long sum = 0;
         for(int i = 1; i <= n; i++)
         {
-            sum += Math.pow(i,3);
+            sum += Math.pow(i,2);
         }
         System.out.println("\n\nThe sum of cubes from 1 to " +n+ " = " +sum);
         sc.close();
