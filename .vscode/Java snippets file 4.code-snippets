@@ -2,7 +2,7 @@
     "NextInt method": {
         "prefix": "ni",
         "body": [
-            "= sc.nextInt();"
+            "int $0 = sc.nextInt();"
         ],
         "description": "Used to input a number of integer data type"
     }
