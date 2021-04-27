@@ -1,0 +1,9 @@
+{
+    "Printing Statement 2": {
+        "prefix": "sop",
+        "body": [
+            "System.out.print($1);"
+        ],
+        "description": "Used to input the statement \"System.out.print();\""
+    }
+}
