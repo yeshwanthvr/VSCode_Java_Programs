@@ -5,7 +5,6 @@ public class Permutation
         System.out.println("This program is going to print all the possible combinations of a 4-digit lock.");
         System.out.println("\nHere are the combinations");
         System.out.println("\n\n");
-        for(long i = 0; i <= 1000000000; i++);
         for(int i = 0; i < 10; i++)
         {
             for(int j = 0; j < 10; j++)
