@@ -2,6 +2,8 @@ import java.util.*;
 public class Area_Perimeter1
 {
     public static int Area(int a , int c)
+    // Here , 'a' and 'c' are called formal parameters
+    // Here , the return data type is int.
     {
         int y = a * c;
         return y;
@@ -23,7 +25,7 @@ public class Area_Perimeter1
         {
             for(int j = 0; j <= 100; j++)
             {
-                p = Perimeter(i, j);
+                p = Perimeter(i, j); // Here , 'i' and 'j' are called the actual parameters
                 q = Area(i, j);
                 if(p == q)
                 {
