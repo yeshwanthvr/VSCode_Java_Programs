@@ -2,7 +2,7 @@
         "Delay loop": {
         "prefix": "for",
         "body": [
-            "for(long i = 1000000000; i >= 0; i++);"
+            "for(long i = 1000000000; i >= 0; i--);"
         ],
         "description": "This snippet is used to input a delay loop"
     }
