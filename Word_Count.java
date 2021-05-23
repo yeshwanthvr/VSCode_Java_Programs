@@ -6,6 +6,7 @@ public class Word_Count
         System.out.println("Enter a sentence : ");
         String str = sc.nextLine();
         int wCount = 0;
+        str += " ";
         int l = str.length();
         char b;
         for(int i = 0; i < l; i++)
@@ -16,7 +17,7 @@ public class Word_Count
                 wCount++;
             }
         }
-        System.out.println("\nThe number of words : " +(wCount + 1));
+        System.out.println("\nThe number of words : " +wCount);
         sc.close();
     }
 }
