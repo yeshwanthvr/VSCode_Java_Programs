@@ -12,7 +12,7 @@ public class Pattern_2
         char ch = sc.next().charAt(0);
         System.out.println("Hey user , here is your pattern :- \n");
         for(long i = 1000000000; i >= 0; i--);
-        for(int i = 0; i <= r; i++)
+        for(int i = 0; i < r; i++)
         {
             for(int j = 0; j <= i; j++)
             {
