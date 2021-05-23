@@ -37,7 +37,7 @@ public class RD_2
         System.out.println("\nName \t\t\tMaturity Value");
         for(int i = 0; i < n; i++)
         {
-            System.out.println("\n" +name[i]+ "\t\t\t$" +MV[i]);
+            System.out.println("\n" +name[i]+ "\t\t\t" +MV[i]);
         }
         sc.close();
     }
