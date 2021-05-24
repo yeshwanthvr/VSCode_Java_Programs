@@ -1,9 +1,9 @@
 {
-        "Delay loop": {
-        "prefix": "for",
+    "Printing Statement 2": {
+        "prefix": "sop",
         "body": [
-            "for(long i = 1000000000; i >= 0; i--);"
+            "System.out.print($1);"
         ],
-        "description": "This snippet is used to input a delay loop"
+        "description": "Used to input the statement \"System.out.print();\""
     }
 }

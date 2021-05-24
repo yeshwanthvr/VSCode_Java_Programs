@@ -1,9 +1,9 @@
 {
-    "NextInt method": {
-        "prefix": "ni",
+    "Delay loop": {
+        "prefix": "for",
         "body": [
-            "int $0 = sc.nextInt();"
+            "for(long i = 1000000000; i >= 0; i--);"
         ],
-        "description": "Used to input a number of integer data type"
-    }
+        "description": "This snippet is used to input a delay loop"
+}
 }
