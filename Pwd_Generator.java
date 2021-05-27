@@ -3,25 +3,30 @@ public class Pwd_Generator
 {
     public static char GenerateCharacter()
     {
-        int r = (int)(Math.random() * 68);
-        if(r < 26)
+        int r = (int)(Math.random() * 75);     // 26 + 26 + 10 + 6 + 7
+        if(r < 26)     // Uppercase alphabets     0 - 25
         {
             int ans = r + 65;
             return (char)(ans);
         }
-        else if(r < 52)
+        else if(r < 52)     //Lowercase alphabets     26 - 51
         {
             int ans = r + 71;
             return (char)(ans);
         }
-        else if(r < 62)
+        else if(r < 62)     // Numbers     52 - 61
         {
             int ans = r - 4;
             return (char)(ans);
         }
-        else
+        else if(r < 68)     //Special characters 1     62 - 67
         {
             int ans = r + 29;
+            return (char)(ans);
+        }
+        else     // Special characters 2     68 - 74
+        {
+            int ans = r - 33;
             return (char)(ans);
         }
     }
