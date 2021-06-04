@@ -1,8 +1,8 @@
 import java.util.*;
 public class Marksheet
 {
-    public static void main(String [] args)
-    {
+     public static void main(String [] args)
+     {
         Scanner sc = new Scanner(System.in);
         System.out.println("This program is used to print the marksheet for the students");
         System.out.println("\n\nEnter the number of students : ");
