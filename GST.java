@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class GST
 {
-     public static void GST1(String n , double d, double gst , double ct) // For intra-state with discount
+     public static void GST1(String n , double d, double gst , double ct)
      {
           double actcost = ct - ((d / 100) * ct);
           double halfGST = gst / 2;
