@@ -1,6 +1,31 @@
 import java.util.Scanner;
 public class GST
 {
+     public static void GST1(String n , double d, double gst , double ct) // For intra-state with discount
+     {
+          double actcost = ct - ((d / 100) * ct);
+          double halfGST = gst / 2;
+          double CGST = (halfGST / 100) * actcost;
+          double SGST = (halfGST / 100) * actcost;
+          double total = actcost + CGST + SGST;
+          System.out.println("Name : " +n);
+          System.out.println("Cost of goods : " +ct);
+          System.out.println("Discount (in %) : " +d);
+          System.out.println("GST rate (in %) : " +gst);
+          System.out.println("Actual cost of goods : " +actcost);
+          System.out.println("Amount to be paid : " +total);
+     }
+     public static void GST2(String n , double gst , double ct)
+     {
+          double halfGST = gst / 2;
+          double CGST = (halfGST / 100) * ct;
+          double SGST = (halfGST / 100) * ct;
+          double total = ct + CGST + SGST;
+          System.out.println("Name : " +n);
+          System.out.println("Cost of goods : " +ct);
+          System.out.println("GST rate (in %) : " +gst);
+          System.out.println("Amount to be paid : " +total);
+     }
      public static void main(String args[])
      {
           Scanner sc = new Scanner(System.in);
@@ -27,22 +52,7 @@ public class GST
                     double disc = sc.nextDouble();
                     System.out.println("Enter the GST rate : ");
                     double GST = sc.nextDouble();
-
-                    // Calculation
-                    double actcost = cost - ((disc / 100) * cost);
-                    double halfGST = GST / 2;
-                    double CGST = (halfGST / 100) * actcost;
-                    double SGST = (halfGST / 100) * actcost;
-                    double total = actcost + CGST + SGST;
-
-                    // Printing the result
-                    System.out.println();
-                    System.out.println("Name : " +name);
-                    System.out.println("Discount on goods (in %) : " +disc);
-                    System.out.println("GST rate on goods (in %) : " +GST);
-                    System.out.println("Cost of goods : " +cost);
-                    System.out.println("Actual cost of goods : " +actcost);
-                    System.out.println("Total amount to be paid : " +total);
+                    GST1(name , disc , GST , cost);
                     break;
 
                     case 'b':
@@ -51,19 +61,7 @@ public class GST
                     cost = sc.nextDouble();
                     System.out.println("Enter the GST rate : ");
                     GST = sc.nextDouble();
-
-                    // Calculation
-                    halfGST = GST / 2;
-                    CGST = (halfGST / 100) * cost;
-                    SGST = (halfGST / 100) * cost;
-                    total = cost + CGST + SGST;
-
-                    // Printing the result
-                    System.out.println();
-                    System.out.println("Name : " +name);
-                    System.out.println("GST rate on goods (in %) : " +GST);
-                    System.out.println("Cost of goods : " +cost);
-                    System.out.println("Total amount to be paid : " +total);
+                    GST2(name , GST , cost);
                     break;
 
                     default:
@@ -85,20 +83,7 @@ public class GST
                     double disc = sc.nextDouble();
                     System.out.println("Enter the GST rate : ");
                     double GST = sc.nextDouble();
-
-                    // Calculation
-                    double actcost = cost - ((disc / 100) * cost);
-                    double IGST = (GST / 100) * actcost;
-                    double total = actcost + IGST;
-
-                    // Printing the result
-                    System.out.println();
-                    System.out.println("Name : " +name);
-                    System.out.println("Discount on goods (in %) : " +disc);
-                    System.out.println("GST rate on goods (in %) : " +GST);
-                    System.out.println("Cost of goods : " +cost);
-                    System.out.println("Actual cost of goods : " +actcost);
-                    System.out.println("Total amount to be paid : " +total);
+                    GST1(name , disc , GST , cost);
                     break;
 
                     case 'r':
@@ -107,24 +92,13 @@ public class GST
                     cost = sc.nextDouble();
                     System.out.println("Enter the GST rate : ");
                     GST = sc.nextDouble();
-
-                    // Calculation
-                    IGST = (GST / 100) * cost;
-                    total = cost + IGST;
-
-                    // Printing the result    
-                    System.out.println();
-                    System.out.println("Name : " +name);
-                    System.out.println("GST rate on goods (in %) : " +GST);
-                    System.out.println("Cost of goods : " +cost);
-                    System.out.println("Total amount to be paid : " +total);
+                    GST2(name , GST , cost);
                     break;
 
                     default:
                     System.out.println("Invalid choice !!!!!");
                }
                break;
-
                default:
                System.out.println("Invalid choice !!!!!");
           }
